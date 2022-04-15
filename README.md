@@ -24,9 +24,19 @@ Feel free to send PR and suggestions. 😁
   2  | Mangui gui fi            | Je vais bien              | I'm fine 
   3  | iow nak, no def ?        | Et toi, comment va tu ?   | And you, how are you ? 
   4  | Mangui ci diam           | Ca va                     | I'm good
-  5  |                          |                           |
-  6  |                          |                           |
-  7  |                          |                           |
-  8  |                          |                           |
-  9  |                          |                           |
-  10 |                          |                           |
+  5  |                          |De quel pays viens tu ?    |
+  6  |                          |Dans quelle ville vis tu ? |
+  7  |                          |Comment t'appelles tu ?    |
+  8  |                          |Je m'appelle Mame.         |
+  9  |                          |Que fais tu dans la vie ?  |
+  10 |                          |Que manges tu ?            |
+  11 |                          |                           |
+  12 |                          |                           |
+  13 |                          |                           |
+  14 |                          |                           |
+  15 |                          |                           |
+  16 |                          |                           |
+  17 |                          |                           |
+  18 |                          |                           |
+  19 |                          |                           |
+  20 |                          |                           |
