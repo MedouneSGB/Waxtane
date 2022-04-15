@@ -50,3 +50,8 @@ Feel free to send PR and suggestions. 😁
   28 |                          |                           |
   29 |                          |                           |
   30 |                          |                           |
+
+
+
+
+[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
