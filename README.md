@@ -17,7 +17,7 @@ Venez contribuer un max !
 Une discussion n'est rien sans ses intervenants.  
 Feel free to send PR and suggestions. 😁
 
-## Traductions disponibles
+## Phrases disponibles
  N°  | Wolof                    | Fancais                   | Anglais                  |
 ---- | ------------------------ | ------------------------- | --------------------------
   1  | Na nga def ?             | Comment vas tu ?          | How are you ? 
