@@ -1,5 +1,5 @@
 # Waxtane
-Le Waxtane the simple way ?!
+Le Wolof the simple way ?!
 
 Niewlene niou waxtane,   
 Venez discuter,   
