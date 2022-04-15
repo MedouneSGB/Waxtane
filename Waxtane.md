@@ -1,11 +1,11 @@
 # Waxtane
 
- N°  | Wolof                    | Fancais                   | Anglais                  |
----- | ------------------------ | ------------------------- | --------------------------
+ N°  | Wolof                    | Fancais                   | Anglais                  
+---- | :----------------------- | :------------------------ | :-------------------------
   1  | Na nga def ?             | Comment vas tu ?          | How are you ? 
   2  | Mangui gui fi            | Je vais bien              | I'm fine 
   3  | iow nak, no def ?        | Et toi, comment va tu ?   | And you, how are you ? 
-  4  | Bane wakhtu mo joot ?    | Quelle heure fait-il ?    | What time is it ?
+  4  | Mangui ci diam           | Ca va                     | I'm good
   5  | Kay gnou lekk            | Viens on mange            | Let's take a meal
   6  | Gnata att nga am ?       | Quelle age as-tu ?        | How old are you ?
   7  | Tay dama woorr           | J'ai jeûné aujourd'hui    | I fasted today
@@ -22,3 +22,13 @@
   18 | Dama beug rére           | Je veux prendre un dîner   | I want to have a dinner
   19 | Damay takk jabar         | Je vais me marier          | I'm getting married 
   20 | Mayma khaliss            | Donne moi de l'argent      | Give me some money 
+  21 | Bane wakhtu mo joot ?    | Quelle heure fait-il ?    | What time is it ?
+  22 |                          |                           |
+  23 |                          |                           |
+  24 |                          |                           |
+  25 |                          |                           |
+  26 |                          |                           |
+  27 |                          |                           |
+  28 |                          |                           |
+  29 |                          |                           |
+  30 |                          |                           |
