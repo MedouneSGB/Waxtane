@@ -1,0 +1,40 @@
+name: CSV as Table md
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
+jobs:
+  build:
+    name: CSV as Table
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥 Checkout Repo"
+        uses: actions/checkout@master
+      - name: "💾  Github Repository Metadata"
+        uses: varunsridharan/action-repository-meta@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "📡 Read CSV"
+        id: csv
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./data/waxtane.csv
+      - name : "🧮 Converte CVS to Table"
+        id: csv-table-output
+        uses: petems/csv-to-md-table-action@master
+        with:
+          csvinput: ${{ steps.csv.outputs.content }}
+      - name: "💫 Update README.md, Waxtane.md"
+        uses: varunsridharan/action-dynamic-readme@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          global_template_repository: dofbi/Waxtane
+          commit_message: '📝 docs(data): Waxtane update'
+          files: |
+            README.md
+            templates/README.md=output/README.md
+            Waxtane.md
+            templates/Waxtane.md=output/Waxtane.md
