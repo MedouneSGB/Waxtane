@@ -41,7 +41,7 @@ Feel free to send PR and suggestions. 😁
   19 | Damay takk jabar         | Je vais me marier          | I'm getting married 
   20 | Mayma khaliss            | Donne moi de l'argent      | Give me some money 
   21 | Bane wakhtu mo joot ?    | Quelle heure fait-il ?    | What time is it ?
-  22 |                          |                           |
+  22 | Dama sonne               |Je suis fatigué            | I'm tired
   23 |                          |                           |
   24 |                          |                           |
   25 |                          |                           |
