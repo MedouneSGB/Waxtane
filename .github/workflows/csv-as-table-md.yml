@@ -31,7 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          global_template_repository: dofbi/Waxtane
+          global_template_repository: MedouneSGB/Waxtane
           commit_message: '📝 docs(data): Waxtane update'
           files: |
             README.md
