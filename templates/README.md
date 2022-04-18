@@ -18,7 +18,7 @@ Une discussion n'est rien sans ses intervenants.
 Feel free to send PR and suggestions. 😁
 
 ## Phrases disponibles
-$‎{{ GITHUB_ACTIONS }}
+${{ env.TABLE_VAR }}
 
 
 
