@@ -15,7 +15,8 @@ Waxtane vise à faciliter la communication entre personnes parlant différentes 
 
 Venez contribuer un max !  
 Une discussion n'est rien sans ses intervenants.  
-Feel free to send PR and suggestions. 😁
+Feel free to send PR and suggestions. 😁  
+Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 
 ## Phrases disponibles
 ${{ env.TABLE_VAR }}
