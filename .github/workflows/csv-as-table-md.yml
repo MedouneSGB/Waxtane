@@ -36,7 +36,7 @@ jobs:
           echo "${{steps.csv-table-output.outputs.markdown-table}}" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
 
-      - name: "💫 Update README.md, Waxtane.md"
+      - name: "💫 Update README.md"
         uses: varunsridharan/action-dynamic-readme@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,4 +45,3 @@ jobs:
           commit_message: '📝 docs(data): Waxtane update'
           files: |
             templates/README.md=README.md
-            templates/Waxtane.md=Waxtane.md
