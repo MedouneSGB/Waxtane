@@ -4,12 +4,12 @@ Le Wolof the simple way ?!
 
 Niewlene niou waxtane, venez discuter, come discuss with us !
 
-## Qu'es ce que waxtane ?
+## Qu'est ce que waxtane ?
 
 Waxtane est un receuil de phrases de discussion traduites en trois langues (pour le moment).  
 Le Wolof le Francais et l'Anglais.
 
-Waxtane vise à faciliter la communication entre personnes parlant différentes langues, en se basant sur un model sans prise de têtes la discussion.  
+Waxtane vise à faciliter la communication entre personnes parlant différentes langues, en se basant sur un modèle sans prise de têtes: la discussion.  
 
 ## Contributions
 
