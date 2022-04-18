@@ -4,12 +4,12 @@ Le Wolof the simple way ?!
 
 Niewlene niou waxtane, venez discuter, come discuss with us !
 
-## Qu'est ce que waxtane ?
+## Qu'es ce que waxtane ?
 
 Waxtane est un receuil de phrases de discussion traduites en trois langues (pour le moment).  
 Le Wolof le Francais et l'Anglais.
 
-Waxtane vise à faciliter la communication entre personnes parlant différentes langues, en se basant sur un modèle sans prise de têtes: la discussion.  
+Waxtane vise à faciliter la communication entre personnes parlant différentes langues, en se basant sur un model sans prise de têtes la discussion.  
 
 ## Contributions
 
@@ -69,9 +69,19 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 45 | Dama nékone daara dja               | J&#039;étais à l&#039;école                   | I was at school                              |
 | 46 | Damay saakou xam-xam                | Je suis à la quête de connaissance  | I am on a quest for knowledge                |
 | 47 | Nianal ma !                         | Prie pour moi !                     | Pray for me !                                |
-| 48 | Témérri Diouni                      | Cent milles                         | One hundred thousand                  |      |
+| 48 | Témérri Diouni                      | Cent milles                         | One hundred thousand                         |
 | 49 |                                     |                                     |                                              |
 | 50 |                                     |                                     |                                              |
+| 51 |                                     |                                     |                                              |
+| 52 |                                     |                                     |                                              |
+| 53 |                                     |                                     |                                              |
+| 54 |                                     |                                     |                                              |
+| 55 |                                     |                                     |                                              |
+| 56 |                                     |                                     |                                              |
+| 57 |                                     |                                     |                                              |
+| 58 |                                     |                                     |                                              |
+| 59 |                                     |                                     |                                              |
+| 60 |                                     |                                     |                                              |
 
 
 [![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
