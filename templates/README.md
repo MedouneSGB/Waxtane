@@ -18,6 +18,12 @@ Une discussion n'est rien sans ses intervenants.
 Feel free to send PR and suggestions. 😁
 
 ## Phrases disponibles
+<<<<<<< refs/remotes/origin/main
+=======
+${{ env.TABLE_VAR }}
+
+
+>>>>>>> 🐛 fix(Action): CSV as Table md #7
 
 $‎{{ GITHUB_ACTIONS }}
 
