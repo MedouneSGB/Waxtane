@@ -1,3 +1,0 @@
-# Waxtane
-
-$‎{{ GITHUB_ACTIONS }}

@@ -1,3 +1,3 @@
 # Waxtane
 
-$‎{{ GITHUB_ACTIONS }}
+${{ env.TABLE_VAR }}
