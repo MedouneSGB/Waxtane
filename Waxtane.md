@@ -42,13 +42,13 @@
 | 38 | Ñaata ngay jaaye bii ?              | Tu vends ça combien ?               | How much are you selling this for ?   |
 | 39 | Seer na lool                        | C&#039;est très cher                     | That’s very expensive                 |
 | 40 | Wagniil mako                        | Diminue moi ça                      | Turn it down for me                   |
-| 41 | Dama khawa diapp !                  | Je suis un peu occupé !             | I am a little busy !                  |
-| 42 | Naka nga yendo ?                    | Comment s'est passée ta journée ?   | How was your day ?
-| 43 | Barki démb diaronne na sa keur      | Avant-hier j'étais passé chez toi   | The day before yesterday I went to your house |
-| 44 | Dama nieuwone indil leu sa khaliss  | J'étais venu t'apporter ton argent  | I came to bring you your money        |
-| 45 | Dama nékone daara dja               | J'étais à l'école                   | I was at school                       |
-| 46 | Damay saakou xam-xam                | Je suis à la quête de connaissance  | I am on a quest for knowledge         |
-| 47 | Nianal ma !                         | Prie pour moi !                     | Pray for me !                         |
-| 48 | Témérri Diouni                      | Cent milles                         | One hundred thousand                  |
-| 49 |                                     |                                     | 
+| 41 | Lougnouy lekk ?                     |  Qu&#039;est ce qu&#039;on mange ?            |  What do we eat ?                     |
+| 42 |                                     |                                     |
+| 43 |                                     |                                     |
+| 44 |                                     |                                     |
+| 45 |                                     |                                     |
+| 46 |                                     |                                     |
+| 47 |                                     |                                     |
+| 48 |                                     |                                     |
+| 49 |                                     |                                     |
 | 50 |                                     |                                     |
