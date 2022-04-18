@@ -18,13 +18,7 @@ Une discussion n'est rien sans ses intervenants.
 Feel free to send PR and suggestions. 😁
 
 ## Phrases disponibles
-<<<<<<< refs/remotes/origin/main
-=======
-${{ env.TABLE_VAR }}
 
-
->>>>>>> 🐛 fix(Action): CSV as Table md #7
-
-$‎{{ GITHUB_ACTIONS }}
+$‎{{ env.TABLE_VAR }}
 
 [![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
