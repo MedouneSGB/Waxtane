@@ -1,3 +1,3 @@
 # Waxtane
 
-$‎{{ env.TABLE_VAR }}
+${{ env.TABLE_VAR }}

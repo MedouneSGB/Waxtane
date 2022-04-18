@@ -18,7 +18,7 @@ Une discussion n'est rien sans ses intervenants.
 Feel free to send PR and suggestions. 😁
 
 ## Phrases disponibles
+${{ env.TABLE_VAR }}
 
-$‎{{ env.TABLE_VAR }}
 
 [![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
