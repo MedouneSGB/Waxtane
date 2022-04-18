@@ -60,7 +60,7 @@ Feel free to send PR and suggestions. 😁
 | 38 | Ñaata ngay jaaye bii ?              | Tu vends ça combien ?               | How much are you selling this for ?   |
 | 39 | Seer na lool                        | C&#039;est très cher                     | That’s very expensive                 |
 | 40 | Wagniil mako                        | Diminue moi ça                      | Turn it down for me                   |
-| 41 |                                     |                                     |
+| 41 | Lougnouy lekk ?                     |  Qu&#039;est ce qu&#039;on mange ?            |  What do we eat ?                     |
 | 42 |                                     |                                     |
 | 43 |                                     |                                     |
 | 44 |                                     |                                     |
