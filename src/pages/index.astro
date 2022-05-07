@@ -5,12 +5,14 @@ import '../styles/home.css';
 import Layout from '../layouts/Layout.astro';
 // Component Imports
 import Readme from '../components/Readme.astro';
+import Search from '../components/Search/index.astro';
 ---
 
 <Layout title="Waxtane - Le Wolof the simple way ?!">
 	<header>
 		<h1>Welcome to <span class="text-gradient">Waxtane</span></h1>
 		<p class="instructions"><strong>Niewlene niou waxtane</strong> , venez discuter, come discuss with us !</p>
+		<Search />
 	</header>
 	<main>
 		<Readme />
