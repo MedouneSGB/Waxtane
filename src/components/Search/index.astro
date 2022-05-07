@@ -1,0 +1,7 @@
+---
+import csv from 'csvtojson';
+import Search from './Search.svelte';
+const data= await csv().fromFile('data/waxtane.csv');
+---
+
+<Search data={data} client:load />

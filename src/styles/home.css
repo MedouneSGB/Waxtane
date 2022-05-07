@@ -77,3 +77,22 @@ th {
 	background-image: var(--night-sky-gradient);
 	color: #fff;
 }
+
+button {
+	gap: 0.25em;
+	padding: 0.33em 0.67em;
+	border: 0;
+	background: var(--astro-gradient);
+	font-size: 1rem;
+	align-items: center;
+	gap: 0.25em;
+	border-radius: 99em;
+	color: #fff;
+	background-color: var(--astro-gradient);
+}
+
+.search {
+	display: flex;
+  margin: 10px 0;
+	width: 100%;
+}
