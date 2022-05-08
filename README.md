@@ -29,7 +29,7 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 6  | Gnata att nga am ?                  | Quelle age as-tu ?                  | How old are you ?                            |
 | 7  | Tay dama woorr                      | J&#039;ai jeûné aujourd&#039;hui              | I fasted today                               |
 | 8  | Fane nga deuk ?                     | Où est-ce que tu habites ?          | Where do you live ?                          |
-| 9  | Nane nga toudou ?                   | Comment est-ce que tu t&#039;ape         | lle ? | What&#039;s your name ?                   |
+| 9  | Nane nga toudou ?                   | Comment est-ce que tu t&#039;apelle ? | What&#039;s your name ?                   |
 | 10 | Mangui toudou X                     | Je m&#039;appelle X                      | My name is X                                 |
 | 11 | Dama la sokhla                      | J&#039;ai besoin de toi                  | I need you                                   |
 | 12 | Dama khiff                          | J&#039;ai faim                           | I am hungry                                  |
