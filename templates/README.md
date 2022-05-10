@@ -22,5 +22,5 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 ${{ env.TABLE_VAR }}
 
 
-[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)  
+[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)  
 [Github Page](https://github.com/MedouneSGB/Waxtane)
