@@ -21,7 +21,7 @@
 	  Wolof
   </button>
   <button on:click={toggle}>
-    Fancais
+    Français
   </button>
   <button on:click={toggle}>
     Anglais
@@ -41,13 +41,13 @@
       <tr>
         <th>N°</th>
         <th>Wolof</th>
-        <th>Fancais</th>
+        <th>Français</th>
         <th>Anglais</th>
       </tr>
       <tr>
         <td>{selectedwaxtane['N°']}</td>
         <td>{selectedwaxtane.Wolof}</td>
-        <td>{selectedwaxtane.Fancais}</td>
+        <td>{selectedwaxtane.Français}</td>
         <td>{selectedwaxtane.Anglais}</td>
       </tr>
     </table>
