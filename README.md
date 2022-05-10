@@ -19,7 +19,7 @@ Feel free to send PR and suggestions. 😁
 Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 
 ## Phrases disponibles
-| N° | Wolof                               | Fancais                             | Anglais                                      |
+| N° | Wolof                               | Français                            | Anglais                                      |
 | -- | ----------------------------------- | ----------------------------------- | -------------------------------------------- |
 | 1  | Na nga def ?                        | Comment vas tu ?                    | How are you ?                                |
 | 2  | Mangui gui fi                       | Je vais bien                        | I&#039;m fine                                     |
