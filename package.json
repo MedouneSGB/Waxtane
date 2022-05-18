@@ -1,0 +1,12 @@
+{
+  "name": "waxtane",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev -ws",
+    "start": "npm run dev -ws",
+    "build": "npm run build -ws",
+    "preview": "npm run preview -ws"
+  }
+}
