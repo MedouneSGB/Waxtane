@@ -85,14 +85,23 @@ button {
 	background: var(--astro-gradient);
 	font-size: 1rem;
 	align-items: center;
-	gap: 0.25em;
 	border-radius: 99em;
 	color: #fff;
 	background-color: var(--astro-gradient);
+	cursor: pointer;
+}
+
+button:hover{
+	margin: auto 0.6rem;
+	transform: scale(1.2);
 }
 
 .search {
 	display: flex;
-  margin: 10px 0;
+  	margin: 18px 0;
 	width: 100%;
+}
+
+.search-input{
+	outline: none;
 }

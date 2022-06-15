@@ -2,7 +2,13 @@
   import AutoComplete from "simple-svelte-autocomplete"
 
   export let data
-  
+
+  const searchPlaceholders = {
+		"Anglais": "Search a word",
+		"Français": "Cherche un mot",
+		"Wolof": "Saytu ben baat"
+	}
+	
   let selectedwaxtane = null
   let lang = "Wolof"
 
@@ -35,7 +41,7 @@
 </style>
 
 {#await forceUpdate(lang) then _}
-  <AutoComplete items="{data}" bind:selectedItem="{selectedwaxtane}" bind:labelFieldName={lang} placeholder="Search a word" className="search" />
+  <AutoComplete items="{data}" bind:selectedItem="{selectedwaxtane}" bind:labelFieldName={lang} placeholder="{searchPlaceholders[lang]}" className="search" inputClassName="search-input" />
   {#if selectedwaxtane}
     <table>
       <tr>
