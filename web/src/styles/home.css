@@ -81,6 +81,7 @@ th {
 button {
 	gap: 0.25em;
 	padding: 0.33em 0.67em;
+	margin: auto 0.2rem;
 	border: 0;
 	background: var(--astro-gradient);
 	font-size: 1rem;
@@ -89,11 +90,13 @@ button {
 	color: #fff;
 	background-color: var(--astro-gradient);
 	cursor: pointer;
+	transition: margin 0.8s;
+	transition: transform 0.9s;
 }
 
 button:hover{
-	margin: auto 0.6rem;
-	transform: scale(1.2);
+	margin: auto 0.5rem;
+	transform: scale(1.18);
 }
 
 .search {
