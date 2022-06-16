@@ -71,6 +71,10 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 46 | Damay saakou xam-xam                | Je suis à la quête de connaissance  | I am on a quest for knowledge                |
 | 47 | Nianal ma !                         | Prie pour moi !                     | Pray for me !                                |
 | 48 | Témérri Diouni                      | Cent milles                         | One hundred thousand                         |
+| 49 | Damala beug                         | Je t&#039;aime                           |  I love you                                  |
+| 50 | Dama gueuméntou                     | J&#039;ai sommeil                        | I feel sleepy                                |
+| 51 | Dama beug nelaw                     | Je veux dormir                      | I want to sleep                              |
+| 52 | Fane nga dieum ni ?                 | Où vas-tu ?                         | Where are you going ?                        |
 
   
   
