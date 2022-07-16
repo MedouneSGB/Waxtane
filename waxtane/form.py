@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from models import Sentence
+from .models import Sentence
 
 
 class SentenceForm(ModelForm):
