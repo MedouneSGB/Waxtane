@@ -7,6 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    test1
+    <main>
+        <form method="post">
+            {%csrf_token%}
+
+            {{ forms.non_field_errors }}
+            <div class="fieldWrapper">
+                {{ forms.subject.errors }}
+                <label for="{{ forms.sentence_wolof.id_for_label }}">Entrez une phrase en wolof:</label></br></br>
+                <span class="input">{{ forms.sentence_wolof }}</span>
+            </div></br>
+            
+            <div class="fieldWrapper">
+                {{ forms.subject.errors }}
+                <label for="{{ forms.sentence_fr.id_for_label }}">Entrez la traduction de la phrase en FR:</label></br></br>
+                <span class="input">{{ forms.sentence_fr }}</span>
+            </div></br>
+
+            <div class="fieldWrapper">
+                {{ forms.subject.errors }}
+                <label for="{{ forms.sentence_en.id_for_label }}">>Entrez la traduction de la phrase en anglais:</label></br></br>
+                <span class="input">{{ forms.sentence_en }}</span>
+            </div></br></br>
+
+            <input class="bouton" type="submit" value="Envoyer">
+        </form>
+    </main>
 </body>
 </html>

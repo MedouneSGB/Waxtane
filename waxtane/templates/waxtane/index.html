@@ -38,9 +38,26 @@
                 <p>Venez contribuer un max !<br>
                     Une discussion n’est rien sans ses intervenants.<br>
                     Feel free to send PR and suggestions. 😁<br>
-                    Contribuez ici : <a href="">Ajouter Contribution</a></p>
+                    Contribuez ici : <a href="{% url 'ajout' %}">Ajouter Contribution</a></p>
                 <h2 id="phrases-disponibles">Phrases disponibles</h2>
                 
+                <div class="sec1">
+                    {% for datas in data%}
+                        <div class="sec2">
+                            <p class="message">
+                                {{datas.sentence_wolof}}
+                            </p>
+
+                            <p class="message">
+                                {{datas.sentence_fr}}
+                            </p>
+
+                            <p class="message">
+                                {{datas.sentence_en}}
+                            </p>                            
+                        </div>
+                    {% endfor %}
+                </div>
 
                 <a href="https://github.com/GalsenDev221/made.in.senegal">
                     <img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg">

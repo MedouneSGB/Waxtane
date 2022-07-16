@@ -2,6 +2,8 @@ from asyncio import SendfileNotAvailableError
 from django.shortcuts import render, redirect
 from .models import Sentence
 from .form import SentenceForm
+import sqlite3
+import pandas as pd
 
 # Create your views here.
 def view_index(request):
@@ -14,6 +16,10 @@ def view_form(request):
 
     if forms.is_valid():
         forms.save() 
+        #Update data in file csv
+        connexion_sql = sqlite3.connect("db.sqlite3")
+        df = pd.read_sql_query("SELECT * from waxtane_sentence", connexion_sql)
+        df.to_csv("data/waxtane.csv")
 
         return redirect('home')
 
