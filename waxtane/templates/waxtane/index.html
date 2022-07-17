@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'waxtane/home.css' %}" />
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1>Welcome to 
-            <span>Waxtane</span>
+            <span class="text-gradient">Waxtane</span>
         </h1>
 
-        <p>
+        <p class="instructions">
             <strong>Niewlene niou waxtane</strong>
             , venez discuter, come discuss with us !
         </p>
@@ -41,23 +44,26 @@
                     Contribuez ici : <a href="{% url 'ajout' %}">Ajouter Contribution</a></p>
                 <h2 id="phrases-disponibles">Phrases disponibles</h2>
                 
-                <div class="sec1">
-                    {% for datas in data%}
-                        <div class="sec2">
-                            <p class="message">
-                                {{datas.sentence_wolof}}
-                            </p>
-
-                            <p class="message">
-                                {{datas.sentence_fr}}
-                            </p>
-
-                            <p class="message">
-                                {{datas.sentence_en}}
-                            </p>                            
-                        </div>
-                    {% endfor %}
-                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Wolof</th>
+                            <th>Français</th>
+                            <th>Anglais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for datas in data%}
+                        <tr>
+                            <td>{{datas.id}}</td>
+                            <td>{{datas.sentence_wolof}}</td>
+                            <td>{{datas.sentence_fr}}</td>
+                            <td>{{datas.sentence_en}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
 
                 <a href="https://github.com/GalsenDev221/made.in.senegal">
                     <img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg">

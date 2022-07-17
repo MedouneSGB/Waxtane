@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'waxtane/ajout.css' %}" />
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Contribuer a
+            <span class="text-gradient">Waxtane</span>
+        </h1>
+    </header>
+
     <main>
         <form method="post">
             {%csrf_token%}
@@ -14,23 +23,23 @@
             {{ forms.non_field_errors }}
             <div class="fieldWrapper">
                 {{ forms.subject.errors }}
-                <label for="{{ forms.sentence_wolof.id_for_label }}">Entrez une phrase en wolof:</label></br></br>
+                <label for="{{ forms.sentence_wolof.id_for_label }}">Entrez une phrase en wolof</label></br></br>
                 <span class="input">{{ forms.sentence_wolof }}</span>
             </div></br>
             
             <div class="fieldWrapper">
                 {{ forms.subject.errors }}
-                <label for="{{ forms.sentence_fr.id_for_label }}">Entrez la traduction de la phrase en FR:</label></br></br>
+                <label for="{{ forms.sentence_fr.id_for_label }}">Entrez la traduction de la phrase en français</label></br></br>
                 <span class="input">{{ forms.sentence_fr }}</span>
             </div></br>
 
             <div class="fieldWrapper">
                 {{ forms.subject.errors }}
-                <label for="{{ forms.sentence_en.id_for_label }}">>Entrez la traduction de la phrase en anglais:</label></br></br>
+                <label for="{{ forms.sentence_en.id_for_label }}">Entrez la traduction de la phrase en anglais</label></br></br>
                 <span class="input">{{ forms.sentence_en }}</span>
             </div></br></br>
 
-            <input class="bouton" type="submit" value="Envoyer">
+            <input class="bouton" type="submit" value="Ajouter">
         </form>
     </main>
 </body>
