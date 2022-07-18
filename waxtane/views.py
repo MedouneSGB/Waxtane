@@ -1,4 +1,3 @@
-from asyncio import SendfileNotAvailableError
 from django.shortcuts import render, redirect
 from .models import Sentence
 from .form import SentenceForm
@@ -27,5 +26,9 @@ def view_form(request):
         forms = SentenceForm()
 
     return render(request, 'waxtane/ajout.html', {'forms': forms})
+
+
+def view_nothing(request):
+    return redirect("home")
     
 
