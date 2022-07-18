@@ -129,3 +129,11 @@ th {
 	background-image: var(--night-sky-gradient);
 	color: #fff;
 }
+
+.search-input{
+	outline: none;
+	margin: 18px 0;
+	height: 100%;
+    padding: 5px 11px;
+	width: 75%;
+}

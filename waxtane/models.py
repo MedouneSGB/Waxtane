@@ -9,3 +9,6 @@ class Sentence(models.Model):
     sentence_fr = models.TextField()
     #le champ pour la langue anglaise
     sentence_en = models.TextField()
+
+    def __str__(self) -> str:
+        return self.sentence_wolof

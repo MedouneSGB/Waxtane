@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'waxtane/home.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'waxtane/index.css' %}" />
     <title>Document</title>
 </head>
 <body>
@@ -19,6 +19,32 @@
             <strong>Niewlene niou waxtane</strong>
             , venez discuter, come discuss with us !
         </p>
+
+        <h1>Search in Wolof</h1>
+        <form class="search">
+            <input class="search-input" type="search" placeholder="Saytu ben baat" aria-label="Search" name="q">
+            <button type="submit">Rechercher</button>
+        </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Wolof</th>
+                        <th>Français</th>
+                        <th>Anglais</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sentence in sentences %}
+                    <tr>
+                        <td>{{sentence.id}}</td>
+                        <td>{{sentence.sentence_wolof}}</td>
+                        <td>{{sentence.sentence_fr}}</td>
+                        <td>{{sentence.sentence_en}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
     </header>
 
     <main>
