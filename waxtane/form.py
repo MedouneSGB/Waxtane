@@ -1,7 +1,7 @@
 from django.forms import ModelForm
 from .models import Sentence
 
-#Mode de formulaire pour les phrases
+#Mode de formulaire pour le modele sentence
 class SentenceForm(ModelForm):
     class Meta:
         model = Sentence
