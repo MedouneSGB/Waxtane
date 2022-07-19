@@ -1,4 +1,4 @@
-# Contribuer au projet
+# Contribuez au developpement projet
 
 Pour travailler sur ce projet vous devez en premier installer :
 
