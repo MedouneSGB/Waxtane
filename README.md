@@ -18,6 +18,8 @@ Une discussion n'est rien sans ses intervenants.
 Feel free to send PR and suggestions. 😁  
 Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 
+[Installer le projet](/CONTRIBUTING.md) pour contribuer au developpement de la plateforme
+
 ## Phrases disponibles  
 
 <a href="https://github.com/GalsenDev221/made.in.senegal"><img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg"></a>  
