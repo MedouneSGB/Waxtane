@@ -54,7 +54,17 @@ $ pip3 install wheel
 $ pip3 install -r requirements.txt
 ```
 
-#### 5 - Executer le serveur
+#### 5 - Executer les testes
+
+Windows
+
+```$ py manage.py test```
+
+Linux
+
+```$ python3 manage.py test```
+
+#### 6 - Executer le serveur
 
 Windows
 
