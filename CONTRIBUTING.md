@@ -54,7 +54,7 @@ $ pip3 install wheel
 $ pip3 install -r requirements.txt
 ```
 
-#### 5 - Executer les testes
+#### 5 - Executer les tests
 
 Windows
 
