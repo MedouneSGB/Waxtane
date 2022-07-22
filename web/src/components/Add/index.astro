@@ -1,0 +1,17 @@
+---
+import Add from './Add.svelte'
+import Card from '../Card.astro';
+---
+<script>
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+    localStorage.setItem('word', params.word);
+</script>
+
+<Add client:load/>
+
+<footer>
+    <ul role="list" class="link-card-grid">
+        <Card href="/" title="Accueil" body="Retour à l'accueil" />
+    </ul>
+</footer>

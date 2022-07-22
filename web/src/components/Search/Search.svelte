@@ -3,13 +3,26 @@
 
   export let data
 
-  const searchPlaceholders = {
-		"Anglais": "Search a word",
-		"Français": "Cherche un mot",
-		"Wolof": "Saytu ben baat"
-	}
+  const customize = {
+    "searchPlaceholders":{
+		  "Anglais": "Search a word",
+		  "Français": "Cherche un mot",
+		  "Wolof": "Saytu ben baat"
+	  },
+    "noResultsText":{
+		  "Anglais": "No results found",
+		  "Français": "Aucun résultat trouvé",
+		  "Wolof": "Giso sa laaj"
+	  },
+    "addWord":{
+      "Anglais": "Propose this word",
+		  "Français": "Proposez ce mot",
+		  "Wolof": "Yokkal baat bi"
+    }
+  }
 	
   let selectedwaxtane = null
+  let text = 'Non existing color'
   let lang = "Wolof"
 
   const forceUpdate = async (_) => {};
@@ -22,7 +35,7 @@
 
 <h1>Search in {lang}</h1>
 
-<div>
+<div class="lang">
   <button on:click={toggle}>
 	  Wolof
   </button>
@@ -41,7 +54,11 @@
 </style>
 
 {#await forceUpdate(lang) then _}
-  <AutoComplete items="{data}" bind:selectedItem="{selectedwaxtane}" bind:labelFieldName={lang} placeholder="{searchPlaceholders[lang]}" className="search" inputClassName="search-input" />
+  <AutoComplete items="{data}" bind:selectedItem="{selectedwaxtane}" bind:text bind:labelFieldName={lang} placeholder="{customize.searchPlaceholders[lang]}" className="search" inputClassName="search-input">
+    <div slot="no-results">
+       <strong>{customize.noResultsText[lang]} <a href={`/add?word=${text}`}>{customize.addWord[lang]}</a></strong>
+    </div>
+  </AutoComplete>
   {#if selectedwaxtane}
     <table>
       <tr>
