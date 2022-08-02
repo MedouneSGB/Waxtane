@@ -77,6 +77,7 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 52 | Fane nga dieum ni ?                 | Où vas-tu ?                         | Where are you going ?                        |
 
   
+
   
-<a href="https://github.com/GalsenDev221/made.in.senegal"><img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg"></a>  
+<a href="https://github.com/GalsenDev221/made.in.senegal"><img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/a4d8877ecf8060ba1adbf2a726d8be1aab61d40b/assets/badge.svg"></a>  
 [Github Page](https://github.com/MedouneSGB/Waxtane)  
