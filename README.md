@@ -75,6 +75,7 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 50 | Dama gueuméntou                     | J&#039;ai sommeil                        | I feel sleepy                                |
 | 51 | Dama beug nelaw                     | Je veux dormir                      | I want to sleep                              |
 | 52 | Fane nga dieum ni ?                 | Où vas-tu ?                         | Where are you going ?                        |
+| 53 | Nélaww gua bou baxx ?               |  as tu bien dormi ?                 | did you sleep well ?                         |
 
   
   
