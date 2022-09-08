@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, Test_Actions ]
     
 jobs:
   build:
@@ -38,17 +38,6 @@ jobs:
 
       - name: "💫 Update README.md"
         uses: varunsridharan/action-dynamic-readme@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          global_template_repository: varunsridharan/varunsridharan
-          commit_message: '📝 docs(data): Waxtane update'
-          files: |
-            templates/README.md=README.md
-            
-            
-      - name: "💫 Update README.md branch Test_Actions"
-        uses: varunsridharan/action-dynamic-readme@Test_Actions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
