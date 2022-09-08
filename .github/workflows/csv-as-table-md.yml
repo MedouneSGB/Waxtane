@@ -1,9 +1,9 @@
 name: CSV as Table md
 on:
   push:
-    branches: [ Test_Actions_Ultra ]
+    branches: [ python_version ]
   pull_request:
-    branches: [ Test_Actions_Ultra ]
+    branches: [ python_version ]
     
 jobs:
   build:
