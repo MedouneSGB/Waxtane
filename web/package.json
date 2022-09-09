@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@astrojs/svelte": "^0.1.2",
-    "astro": "^1.0.0-beta.19",
+    "astro": "^1.1.1",
     "csvtojson": "^2.0.10",
     "simple-svelte-autocomplete": "^2.4.0",
     "svelte": "^3.48.0"
