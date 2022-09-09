@@ -1,14 +1,9 @@
 ---
-import { Markdown } from 'astro/components';
-const content = await fetch('../README.md').then(res => res.text());
+import {Content as Markdown} from '../../../README.md';
 ---
 
 <article>
 	<section>
-		<Markdown content={content} />
+		<Markdown />
 	</section>
 </article>
-
-<style>
-	
-</style>
