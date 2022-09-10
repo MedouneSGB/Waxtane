@@ -1,3 +1,6 @@
 [build]
   command = "yarn build"
-  publish = "web/dist"
+  publish = "dist"
+
+[functions]
+  directory = "functions"

@@ -8,5 +8,10 @@
     "start": "npm run dev -ws",
     "build": "npm run build -ws",
     "preview": "npm run preview -ws"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "github-publish": "^3.0.0",
+    "moment": "^2.29.4"
   }
 }
