@@ -60,6 +60,7 @@ header, main, footer {
 .instructions {
 	line-height: 1.8;
 	margin-bottom: 2rem;
+	background-image: var(--night-sky-gradient);
 	padding: 1.5rem;
 	border-radius: 0.4rem;
 	color: var(--color-bg);
