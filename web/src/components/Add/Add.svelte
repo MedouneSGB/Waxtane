@@ -1,31 +1,76 @@
 <script>
   const storedWord = localStorage.getItem("word");
   let word = storedWord || "?";
+
+  let submit = false
+  let send = false
+	
+	const handleSubmit = e => {
+		submit = true
+
+		const formData = new FormData(e.target)
+		const data = new URLSearchParams()
+		for (let field of formData) {
+			const [key, value] = field
+			data.append(key, value)
+		}
+
+    fetch("/", {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: data
+    })
+    .then(() => send = true)
+    .catch((error) => alert(error));
+
+	}
+	
+	const handleKeyup = () => {
+		submit = false
+		
+		if (event.code == 'Enter') {
+			event.preventDefault()
+			event.target.value
+			value = event.target.value
+			return false
+		}
+	}
 </script>
 <header>
     <h1><span class="text-gradient">Waxtane</span> Add word "{word}"</h1>
-    <p class="instructions"><strong>Niewlene niou waxtane</strong> , venez discuter, come discuss with us !</p>
+    {#if send}
+      <p class="instructions vert">
+        <strong>Merci !</strong> Votre contributin à été bien enregistrées.
+      </p>
+    {:else}
+      <p class="instructions gradient"><strong>Niewlene niou waxtane</strong> , venez discuter, come discuss with us !</p>
+    {/if}
 </header>
 <main>
+  {#if send}
+    <p>Après verification il sera ajouté a la liste</p>
+  {:else}
   <div class="link-card">
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="waxtane" method="POST" data-netlify="true" on:submit|preventDefault={handleSubmit}>
+      <input type="hidden" name="form-name" value="waxtane">
+      <p>{submit}</p>
       <p>
-        <label>Anglais <input type="text" name="anglais" value={word} required /></label>
+        <label>Anglais <input type="text" name="anglais" value={word} required on:keyup|preventDefault={handleKeyup}/></label>
       </p>
       <p>
-        <label>Français <input type="text" name="français" value={word} required /></label>
+        <label>Français <input type="text" name="francais" value={word} required on:keyup|preventDefault={handleKeyup}/></label>
       </p>
       <p>
-        <label>Wolof <input type="text" name="Wolof" value={word} required /></label>
+        <label>Wolof <input type="text" name="wolof" value={word} required on:keyup|preventDefault={handleKeyup}/></label>
       </p>
       <p>
         <button type="submit">Envoyer</button>
       </p>
     </form>
   </div>
+  {/if}
 </main>
 <style>
-
 	.link-card {
 		list-style: none;
 		display: flex;
@@ -36,8 +81,8 @@
 		background-position: 100%;
 		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 	}
-
-	.link-card > a, .link-card > form {
+  
+	.link-card > form {
 		width: 100%;
 		text-decoration: none;
 		line-height: 1.4;
@@ -47,32 +92,14 @@
 		background-color: white;
 		opacity: 0.8;
 	}
-
-	h2 {
-		margin: 0;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
     
   p {
       margin-top: 0.75rem;
       margin-bottom: 0;
   }
 
-	h2 span {
-		display: inline-block;
-		transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-
 	.link-card:is(:hover, :focus-within) {
 		background-position: 0;
-	}
-
-	.link-card:is(:hover, :focus-within) h2 {
-		color: #4F39FA;
-	}
-
-	.link-card:is(:hover, :focus-within) h2 span {
-		transform: translateX(2px);
 	}
 
   label, input, button {

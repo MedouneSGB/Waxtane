@@ -3,6 +3,7 @@
 	--astro-gradient: linear-gradient(0deg, #4F39FA, #DA62C4);
 	--link-gradient: linear-gradient(45deg, #4F39FA, #DA62C4 30%, var(--color-border) 60%);
 	--night-sky-gradient: linear-gradient(0deg, #392362 -33%, #431f69 10%, #30216b 50%, #1f1638 100%);
+	--night-sky-vert: linear-gradient(0deg, #359f33 -33%, #25691f 10%, #24bc31 50%, #2a9b22 100%);
 }
 
 h2 {
@@ -59,10 +60,17 @@ header, main, footer {
 .instructions {
 	line-height: 1.8;
 	margin-bottom: 2rem;
-	background-image: var(--night-sky-gradient);
 	padding: 1.5rem;
 	border-radius: 0.4rem;
 	color: var(--color-bg);
+}
+
+.gradient {
+	background-image: var(--night-sky-gradient);
+}
+
+.vert {
+	background-image: var(--night-sky-vert);
 }
 
 table {
