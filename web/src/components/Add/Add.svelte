@@ -3,8 +3,9 @@
   let word = storedWord || "?";
   let wordShowed = word;
 	
-  if (word == '?'){
+  if (word == '?' || null){
 	  word = "";
+	  wordShowed = "?"
   }
 
   let submit = false
