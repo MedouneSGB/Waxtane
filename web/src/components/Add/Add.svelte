@@ -1,6 +1,11 @@
 <script>
   const storedWord = localStorage.getItem("word");
   let word = storedWord || "?";
+  let wordShowed = word;
+	
+  if (word == '?'){
+	  word = "";
+  }
 
   let submit = false
   let send = false
@@ -37,7 +42,7 @@
 	}
 </script>
 <header>
-    <h1><span class="text-gradient">Waxtane</span> Add word "{word}"</h1>
+    <h1><span class="text-gradient">Waxtane</span> Add word "{wordShowed}"</h1>
     {#if send}
       <p class="instructions vert">
         <strong>Merci !</strong> Votre contributin à été bien enregistrées.
@@ -53,7 +58,6 @@
   <div class="link-card">
     <form name="waxtane" method="POST" data-netlify="true" on:submit|preventDefault={handleSubmit}>
       <input type="hidden" name="form-name" value="waxtane">
-      <p>{submit}</p>
       <p>
         <label>Anglais <input type="text" name="anglais" value={word} required on:keyup|preventDefault={handleKeyup}/></label>
       </p>
