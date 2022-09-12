@@ -5,7 +5,7 @@
 	
   if (word == '?' || null){
 	  word = "";
-	  wordShowed = "?"
+	  wordShowed = "?";
   }
 
   let submit = false
