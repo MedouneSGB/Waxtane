@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/40875400/195984070-ea1f872f-dcf6-4fb8-80a7-ddce3ae244f3.png)
+
+🌐🔥 Participer au Hacktober Fest [Let's Go !🔥](https://github.com/MedouneSGB/Waxtane/issues/32) 
+
 # Waxtane
 
 Le Wolof the simple way ?!
