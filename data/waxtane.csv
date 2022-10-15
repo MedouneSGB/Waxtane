@@ -1,72 +1,72 @@
-N°,Wolof,Français,Anglais
-1,Na nga def ?,Comment vas tu ?,How are you ?
-2,Mangui gui fi,Je vais bien,I'm fine
-3,"iow nak, no def ?","Et toi, comment va tu ?","And you, how are you ?"
-4,Mangui ci diam,Ca va,I'm good
-5,Kay gnou lekk,Viens on mange,Let's take a meal
-6,Gnata att nga am ?,Quelle age as-tu ?,How old are you ?
-7,Tay dama woorr,J'ai jeûné aujourd'hui,I fasted today
-8,Fane nga deuk ?,Où est-ce que tu habites ?,Where do you live ?
-9,Nane nga toudou ?,Comment est-ce que tu t'appelle ?, What's your name ?
-10,Mangui toudou X,Je m'appelle X,My name is X
-11,Dama la sokhla,J'ai besoin de toi,I need you
-12,Dama khiff,J'ai faim,I am hungry
-13,Dama marr,J'ai soif,I am thirsty
-14,Mangui joko si leund mi,Je me connecte sur le web,I am surfing on the web
-15,Dama beug lou jeum si waloum xarala,J'adore la Technologie,I love Technology
-16,Dama beug ndekki,Je veux prendre un petit déjeuner,I want to take a breakfast
-17,Dama beug Agne,Je veux prendre un déjeuner,I want to have lunch
-18,Dama beug rére,Je veux prendre un dîner,I want to have a dinner
-19,Damay takk jabar,Je vais me marier,I'm getting married
-20,Mayma khaliss,Donne moi de l'argent,Give me some money
-21,Bane wakhtu mo joot ?,Quelle heure fait-il ?,What time is it ?
-22,Dama sonne,Je suis fatigué,I'm tired
-23,Bu la neexee,S’il vous plaît,Please
-24,Amul sólo,Je vous en prie,You’re welcome
-25,Kay niou dem,Viens on y va,Come let's go
-26,Jéggël ma,Excusez-moi,Excuse me
-27,Ndax dégg nga angale ?,Parlez-vous anglais ?,Do you speak English ?
-28,Dégg nga ?,Comprenez-vous ?,Do you understand ?
-29,Dégg naa,Je comprends,I understand
-30,Dégguma,Je ne comprends pas,I don’t understand
-31,Nanga tudd ?,Quel est ton nom ?,What is your name ?
-32,Jàmm nga fanaane ?,Comment s'est passée votre soirée ?,How was your night ?
-33,Fii ba Sandaga ñaata ?,Combien ça fait d'ici à Sandaga ?,How much is it from here to Sandaga ?
-34,Fan mooy seen wanaag ?,Où sont les toilettes ?,Where is the toilet ?
-35,Neexoon na,C'était bon,It was good
-36,Mi ngi ci jàmm,Il/Elle va bien,He/She is fine
-37,Ñaata lay jar ?,Combien ça coûte ?,How much is it ?
-38,Ñaata ngay jaaye bii ?,Tu vends ça combien ?,How much are you selling this for ?
-39,Seer na lool,C'est très cher,That’s very expensive
-40,Wagniil mako,Diminue moi ça,Turn it down for me
-41,Lougnouy lekk ?, Qu'est ce qu'on mange ?, What do we eat ?
-41,Dama khawa diapp !,Je suis un peu occupé !,I am a little busy !
-42,Naka nga yendo ?,Comment s'est passée ta journée ?,How was your day ?
-43,Barki démb diaronne na sa keur,Avant-hier j'étais passé chez toi,he day before yesterday I went to your house
-44,Dama nieuwone indil leu sa khaliss,J'étais venu t'apporter ton argent,I came to bring you your money
-45,Dama nékone daara dja,J'étais à l'école,I was at school
-46,Damay saakou xam-xam,Je suis à la quête de connaissance,I am on a quest for knowledge
-47,Nianal ma !,Prie pour moi !,Pray for me !
-48,Témérri Diouni,Cent milles,One hundred thousand
-49,Damala beug,Je t'aime, I love you
-50,Dama gueuméntou,J'ai sommeil,I feel sleepy
-51,Dama beug nelaw,Je veux dormir,I want to sleep
-52,Fane nga dieum ni ?,Où vas-tu ?,Where are you going ?
-53,Nélaww gua bou baxx ?, as tu bien dormi ?,did you sleep well ?
-54,Testou sansement bant yi, Test des mises à jours des branches, Branches updating tests ?
-55,Yalla baxna,ça ira,it will be fine
-56,fane yi dara doxoul,Rien ne marche ces temps-ci,Nothing works these days
-57,Dieureudieuf, Merci , Thanks !!
-58,Touti, un peu, A little
-59,Kay, viens, Come
-60,Kay Agne, viens manger, come to eat
-61,Damay touki,je voyage,I travel
-62,Bokk na, Je participe, I participate
-63,Dama beugue diangue., J'aime les études., I love studies.
-64,Nit ñu baree ngi ci kër gi.,Il y a beaucoup de gens dans la maison.,There are a lot of people in the house.
-65,"Àttan na lekk, wacc doomam.",Il est capable de manger sans son enfant.,He is able to eat without his child.
-66,Àttan nga paan bi?,Êtes-vous capable de porter ce bassin?,Are you able to carry this basin?
-67,Foofu du bunt.,Ce n'est pas une route d'accès.,It is not an access road.
+N°,Wolof,Français,Anglais, Catalan
+1,Na nga def ?,Comment vas tu ?,How are you ?, Com estàs ?
+2,Mangui gui fi,Je vais bien,I'm fine, Estic bé
+3,"iow nak, no def ?","Et toi, comment va tu ?","And you, how are you ?" "I tu, com estàs ?"
+4,Mangui ci diam,Ca va,I'm good, Estic bé
+5,Kay gnou lekk,Viens on mange,Let's take a meal, Anem a menjar
+6,Gnata att nga am ?,Quelle age as-tu ?,How old are you ? Quants anys tens ?
+7,Tay dama woorr,J'ai jeûné aujourd'hui,I fasted today, Avui no he menjat
+8,Fane nga deuk ?,Où est-ce que tu habites ?,Where do you live ?, On vius ?
+9,Nane nga toudou ?,Comment est-ce que tu t'appelle ?, What's your name ?, Quin és el teu nom ?
+10,Mangui toudou X,Je m'appelle X,My name is X, Em dic X 
+11,Dama la sokhla,J'ai besoin de toi,I need you, Et necessito 
+12,Dama khiff,J'ai faim,I am hungry, Tinc fam
+13,Dama marr,J'ai soif,I am thirsty, Tinc set
+14,Mangui joko si leund mi,Je me connecte sur le web,I am surfing on the web,  Estic navegant per la web
+15,Dama beug lou jeum si waloum xarala,J'adore la Technologie,I love Technology, M'encanta la tecnologia
+16,Dama beug ndekki,Je veux prendre un petit déjeuner,I want to take a breakfast, Vull esmorzar
+17,Dama beug Agne,Je veux prendre un déjeuner,I want to have lunch, Vull dinar 
+18,Dama beug rére,Je veux prendre un dîner,I want to have a dinner, Vull sopar
+19,Damay takk jabar,Je vais me marier,I'm getting married, M'estic casant
+20,Mayma khaliss,Donne moi de l'argent,Give me some money, Doneu-me una mica de diners.
+21,Bane wakhtu mo joot ?,Quelle heure fait-il ?,What time is it ? Quiena hora es ?
+22,Dama sonne,Je suis fatigué,I'm tired, Estic cansat
+23,Bu la neexee,S’il vous plaît, Please, Si us plau
+24,Amul sólo,Je vous en prie,You’re welcome, De res
+25,Kay niou dem,Viens on y va,Come let's go, Anem
+26,Jéggël ma,Excusez-moi,Excuse me, Disculpa
+27,Ndax dégg nga angale ?,Parlez-vous anglais ?, Do you speak English ?, Parles anglès ?
+28,Dégg nga ?,Comprenez-vous ?,Do you understand ?, Ho entens?
+29,Dégg naa,Je comprends,I understand, Comprenc
+30,Dégguma,Je ne comprends pas,I don’t understand, No ho entenc
+31,Nanga tudd ?,Quel est ton nom ?,What is your name ?, Quin és el teu nom ?
+32,Jàmm nga fanaane ?,Comment s'est passée votre soirée ?,How was your night ?, Com va ser la teva nit?
+33,Fii ba Sandaga ñaata ?,Combien ça fait d'ici à Sandaga ?,How much is it from here to Sandaga ?, Quant costa anar a Sandaga ?
+34,Fan mooy seen wanaag ?,Où sont les toilettes ?,Where is the toilet ?, On és el bany ?
+35,Neexoon na,C'était bon,It was good, Va ser bo 
+36,Mi ngi ci jàmm,Il/Elle va bien,He/She is fine, Està bé 
+37,Ñaata lay jar ?,Combien ça coûte ?,How much is it ?, Quant costa ? 
+38,Ñaata ngay jaaye bii ?,Tu vends ça combien ?,How much are you selling this for ?, Per quant el veneu ?
+39,Seer na lool,C'est très cher,That’s very expensive, Això és molt car
+40,Wagniil mako,Diminue moi ça,Turn it down for me, Rebutja-ho per a mi
+41,Lougnouy lekk ?, Qu'est ce qu'on mange ?, What do we eat ?,  Què mengem ?
+41,Dama khawa diapp !,Je suis un peu occupé !,I am a little busy !, Estic una mica ocupat !
+42,Naka nga yendo ?,Comment s'est passée ta journée ?,How was your day ?, Com h'anat el dia ? 
+43,Barki démb diaronne na sa keur,Avant-hier j'étais passé chez toi,the day before yesterday I went to your house, Vaig anar a casa seva el dia abans d'ahir 
+44,Dama nieuwone indil leu sa khaliss,J'étais venu t'apporter ton argent,I came to bring you your money, Vaig venir a donar-te diners
+45,Dama nékone daara dja,J'étais à l'école,I was at school, Jo estava a l'escola
+46,Damay saakou xam-xam,Je suis à la quête de connaissance,I am on a quest for knowledge, Estic a la recerca del coneixement
+47,Nianal ma !,Prie pour moi !,Pray for me ! Pregueu per mi!
+48,Témérri Diouni,Cent milles,One hundred thousand, Cent mil
+49,Damala beug,Je t'aime, I love you, T'estimi
+50,Dama gueuméntou,J'ai sommeil,I feel sleepy, Estic cansat
+51,Dama beug nelaw,Je veux dormir,I want to sleep, Vull anar-me'n al llit
+52,Fane nga dieum ni ?,Où vas-tu ?,Where are you going ?, On vas ? 
+53,Nélaww gua bou baxx ?, as tu bien dormi ?,did you sleep well ?, Has dormit bé ?
+54,Testou sansement bant yi, Test des mises à jours des branches, Branches updating tests ?, Actualitzacions de la branca de proves
+55,Yalla baxna,ça ira,it will be fine, Estarà bé
+56,fane yi dara doxoul,Rien ne marche ces temps-ci,Nothing works these days, Res no funciona bé en aquests dies.
+57,Dieureudieuf, Merci , Thanks !!, Gràcies
+58,Touti, un peu, A little, Una mica
+59,Kay, viens, Come, Vine
+60,Kay Agne, viens manger, come to eat, Vine a menjar
+61,Damay touki,je voyage, I travel, Viatjo
+62,Bokk na, Je participe, I participate, Hi participo
+63,Dama beugue diangue., J'aime les études., I love studies, M'encanten els estudis
+64,Nit ñu baree ngi ci kër gi.,Il y a beaucoup de gens dans la maison.,There are a lot of people in the house., Hi ha molta gent a la casa.
+65,"Àttan na lekk, wacc doomam.",Il est capable de manger sans son enfant.,He is able to eat without his child., És capaç de menjar sense el seu fill.
+66,Àttan nga paan bi?,Êtes-vous capable de porter ce bassin?,Are you able to carry this basin?, Ets capaç de portar aquesta pica? 
+67,Foofu du bunt.,Ce n'est pas une route d'accès.,It is not an access road., carrer tancada
 68,Samay am–di–jàmm yépp teewe ñanu ko.,Toutes mes connaissances étaient présentes.,All my acquaintances were present.
 69,Fexeel ba kër gi bañ ñàkk alkol.,Assurez-vous qu'il ne manque pas d'alcool à la maison.,Make sure there is no shortage of alcohol at home.
 70,Gémmiñam buur na.,Il a toutes ses dents.,He has all of his teeth.
