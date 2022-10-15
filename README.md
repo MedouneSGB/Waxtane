@@ -1,7 +1,3 @@
-![image](https://user-images.githubusercontent.com/40875400/195984070-ea1f872f-dcf6-4fb8-80a7-ddce3ae244f3.png)
-
-🌐🔥 Participer au Hacktober Fest [Let's Go !🔥](https://github.com/MedouneSGB/Waxtane/issues/32) 
-
 # Waxtane
 
 Le Wolof the simple way ?!
@@ -81,10 +77,15 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 52 | Fane nga dieum ni ?                 | Où vas-tu ?                          | Where are you going ?                        |
 | 53 | Nélaww gua bou baxx ?               |  as tu bien dormi ?                  | did you sleep well ?                         |
 | 54 | Testou sansement bant yi            |  Test des mises à jours des branches |  Branches updating tests ?                   |
-| 55 | Touti                               |  Un peu                              |  A little                                    |
-| 56 | Kay                                 |  Viens                               |  come                                        |
-| 57 | Kay agne                            |  Viens manger                        |  come to eat                                 |
-
+| 55 | Yalla baxna                         | ça ira                               | it will be fine                              |
+| 56 | fane yi dara doxoul                 | Rien ne marche ces temps-ci          | Nothing works these days                     |
+| 57 | Dieureudieuf                        |  Merci                               |  Thanks !!                                   |
+| 58 | Touti                               |  un peu                              |  A little                                    |
+| 59 | Kay                                 |  viens                               |  Come                                        |
+| 60 | Kay Agne                            |  viens manger                        |  come to eat                                 |
+| 61 | Damay touki                         | je voyage                            | I travel                                     |
+| 62 | Bokk na                             |  Je participe                        |  I participate                               |
+| 63 | Dama beugue diangue.                |  J&#039;aime les études.                  |  I love studies.                             |
 
   
   
