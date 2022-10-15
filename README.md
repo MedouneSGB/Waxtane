@@ -81,6 +81,10 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 52 | Fane nga dieum ni ?                 | Où vas-tu ?                          | Where are you going ?                        |
 | 53 | Nélaww gua bou baxx ?               |  as tu bien dormi ?                  | did you sleep well ?                         |
 | 54 | Testou sansement bant yi            |  Test des mises à jours des branches |  Branches updating tests ?                   |
+| 55 | Touti                               |  Un peu                              |  A little                                    |
+| 56 | Kay                                 |  Viens                               |  come                                        |
+| 57 | Kay agne                            |  Viens manger                        |  come to eat                                 |
+
 
   
   
