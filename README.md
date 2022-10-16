@@ -85,9 +85,8 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 | 60 | Kay Agne                            |  viens manger                        |  come to eat                                 |
 | 61 | Damay touki                         | je voyage                            | I travel                                     |
 | 62 | Bokk na                             |  Je participe                        |  I participate                               |
-| 63 | Dama beugue diangue.                |  J&#039;aime les études.             |  I love studies.                             |
-| 66 |  Beugouma Macky                     |  J&#039;aime pas Macky               |  I don’t like Macky                          |
-| 66 |  sama natal                         |  Mon profile                         |  My profile                          |
+| 63 | Dama beugue diangue.                |  J&#039;aime les études.                  |  I love studies.                             |
+| 66 |  Beugouma Macky                     |  J&#039;aime pas Macky                    |  I don’t like Macky                          |
 
   
   
