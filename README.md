@@ -93,3 +93,8 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
   
 <a href="https://github.com/GalsenDev221/made.in.senegal"><img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg"></a>  
 [Github Page](https://github.com/MedouneSGB/Waxtane)  
+# Our Amazing Contributors ❤️
+
+<a href="https://github.com/MedouneSGB/Waxtane/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MedouneSGB/Waxtane" />
+</a>
