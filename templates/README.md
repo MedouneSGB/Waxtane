@@ -22,7 +22,7 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 
 ${{ env.TABLE_VAR }}
 
-  
+[Read More...](/data/waxtane.csv)
   
 <a href="https://github.com/GalsenDev221/made.in.senegal"><img src="https://raw.githubusercontent.com/GalsenDev221/made.in.senegal/33552c3002801437cb9973915a0666371ab1b50b/assets/badge.svg"></a>  
 [Github Page](https://github.com/MedouneSGB/Waxtane)  

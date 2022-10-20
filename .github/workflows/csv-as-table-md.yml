@@ -19,16 +19,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "📡 Read CSV"
-        id: csv
+        id: csv-read
         uses: juliangruber/read-file-action@v1
         with:
           path: ./data/waxtane.csv
+
+      - name: "✂️ CUT CSV"
+        id: csv-cut
+        uses: cisox/read-more-action@v1.0.2
+        with:
+          text: ${{ steps.csv-read.outputs.content }}
+          max_lines: 52
 
       - name : "🧮 Converte CVS to Table"
         id: csv-table-output
         uses: petems/csv-to-md-table-action@master
         with:
-          csvinput: ${{ steps.csv.outputs.content }}
+          csvinput: ${{ steps.csv-cut.outputs.text }}
       
       - name: "🔡 Set ENV TABLE_VAR"
         run: |
