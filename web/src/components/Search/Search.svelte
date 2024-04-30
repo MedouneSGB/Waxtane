@@ -22,7 +22,7 @@
   }
 	
   let selectedwaxtane = null
-  let text = 'Non existing color'
+  let text = ''
   let lang = "Wolof"
 
   const forceUpdate = async (_) => {};
