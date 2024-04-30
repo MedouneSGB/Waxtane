@@ -1,9 +1,9 @@
 <script>
   const storedWord = localStorage.getItem("word");
-  let word = storedWord || "?";
+  let word = storedWord && storedWord.trim() ? storedWord : "";
   let wordShowed = word;
 	
-  if (word == '?' || null || undefined){
+  if (word == '?' || null){
 	  word = "";
 	  wordShowed = "?";
   }
