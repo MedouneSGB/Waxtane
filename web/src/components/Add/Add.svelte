@@ -3,7 +3,7 @@
   let word = storedWord || "?";
   let wordShowed = word;
 	
-  if (word == '?' || null){
+  if (word == '?' || null || undefined){
 	  word = "";
 	  wordShowed = "?";
   }
