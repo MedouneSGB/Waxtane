@@ -69,7 +69,7 @@
         <th>Espagnol</th>
       </tr>
       <tr>
-        <td>{selectedwaxtane.N°}</td>
+        <td>{selectedwaxtane.No}</td>
         <td>{selectedwaxtane.Wolof}</td>
         <td>{selectedwaxtane.Français}</td>
         <td>{selectedwaxtane.Anglais}</td>
