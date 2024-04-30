@@ -28,7 +28,7 @@ Contribuez ici : [Ajouter Contribution](/data/waxtane.csv)
 
 ## Phrases disponibles  
 
-| N° | Wolof                               | Français                            | Anglais                                       | Espagnol                                   | Catalan                                   |
+| No | Wolof                               | Français                            | Anglais                                       | Espagnol                                   | Catalan                                   |
 | -- | ----------------------------------- | ----------------------------------- | --------------------------------------------- | ------------------------------------------ | ----------------------------------------- |
 | 2  | Na nga def ?                        | Comment vas tu ?                    | How are you ?                                 | ¿Cómo estás?                               | Com estàs ?                               |
 | 3  | Mangui gui fi                       | Je vais bien                        | I&#039;m fine                                      | Estoy bien                                 | Estic bé                                  |
