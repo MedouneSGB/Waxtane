@@ -66,11 +66,13 @@
         <th>Wolof</th>
         <th>Français</th>
         <th>Anglais</th>
+        <th>Espagnol</th>
       </tr>
       <tr>
-        <td>{selectedwaxtane['N°']}</td>
+        <td>{selectedwaxtane.1}</td>
         <td>{selectedwaxtane.Wolof}</td>
         <td>{selectedwaxtane.Français}</td>
+        <td>{selectedwaxtane.Anglais}</td>
         <td>{selectedwaxtane.Espagnol}</td>
       </tr>
     </table>
